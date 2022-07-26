@@ -8,6 +8,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
+    console.log('aoba')
     res.send('Hello World!')
 })
 
